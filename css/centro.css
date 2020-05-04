@@ -1,0 +1,63 @@
+.centro-ops {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container-card {
+  position: relative;
+  padding-right: 55px;
+  padding-left: 55px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  width: 25rem;
+}
+
+.card-center {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  word-wrap: break-word;
+  background-color: rgb(165, 162, 162);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-center img {
+  width: 100%;
+  min-width: 159px;
+  max-width: 400px;
+  max-height: 200px;
+}
+
+#container-center {
+  overflow-x: hidden;
+  width: 100%;
+  padding-top: 1;
+  padding-bottom: 0px;
+}
+
+#container-center .contenido {
+  /* width: 100%; */
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  /*  max-height: 20px; */
+}
+
+.container-body {
+  background: rgb(255, 254, 254);
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
